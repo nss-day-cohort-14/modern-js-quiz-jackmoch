@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-default navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header player__nav">
+        <form class='form-horizontal'>
+            <div class='btn-group btn-group-justified' data-toggle='buttons'>
+                <label class='btn btn-default btn-lg active'>
+                    <input type='radio' name='option' value='1' />Player 1</label>
+                <label class='btn btn-default btn-lg'>
+                    <input type='radio' name='option' value='2' />Player 2</label>
+            </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <article id="game-container">
+
+    <section id="player-setup" class="card card--name">
+      <div class="card__prompt">
+        <div>PLAYER 1 NAME</div>
+        <div class="field">
+          <input type="text" autofocus="true" id="player-name" class="field__textinput">
+        </div>
+      </div>
+    </section>  
+
+  </article>
+
+  <script src="dist/bundle.js"></script>
+
+</body>
+</html>

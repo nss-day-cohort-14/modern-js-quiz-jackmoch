@@ -1,0 +1,29 @@
+body {
+  font-family: "Lato", "Helvetica", "sans-serif";
+  margin: 0;
+  padding: 10px;
+  font-size: 3em;
+}
+
+.field {
+  margin: 20px 0 0 0;
+}
+
+.field__textinput {
+  font-size: 1em;
+  padding: 15px 0;
+  text-align: center;
+  min-width: 500px;
+  max-height: 50px;
+}
+
+.card__prompt {
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.player__nav {
+  padding: 10px;
+}
