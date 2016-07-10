@@ -55,3 +55,6 @@ body {
   min-width: 300px;
 }
 
+.robot__model {
+  min-width: 130px;
+}
