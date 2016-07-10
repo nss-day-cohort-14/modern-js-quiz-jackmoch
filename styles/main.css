@@ -10,15 +10,13 @@ body {
 }
 
 .field__textinput {
-  font-size: 1em;
-  padding: 15px 0;
+  font-size: .75em;
   text-align: center;
   min-width: 500px;
   max-height: 50px;
 }
 
 .card__prompt {
-  font-size: 1.1em;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
@@ -27,3 +25,33 @@ body {
 .player__nav {
   padding: 10px;
 }
+
+.card__button {
+  font-size: 1.1em;
+  margin: 30px 0 0 0;
+  text-align: center;
+}
+
+/*
+  Button styles
+ */
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+}
+
+.btn--blue {
+  border-color: #0074D9;
+  color: white;
+  background-color: #0074D9;
+}
+
+.btn--big {
+  font-size: 28px;
+  padding: 10px;
+  font-weight: 400;
+  min-width: 300px;
+}
+
