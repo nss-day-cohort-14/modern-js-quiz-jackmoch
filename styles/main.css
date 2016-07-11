@@ -16,11 +16,19 @@ body {
   max-height: 50px;
 }
 
-.card__prompt {
+.centered__text {
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
 }
+
+.chosen__header {
+  margin: 30px;
+}
+
+.equip__header {
+  margin-top: 20px;
+};
 
 .player__nav {
   padding: 10px;
@@ -53,6 +61,10 @@ body {
   padding: 10px;
   font-weight: 400;
   min-width: 300px;
+}
+
+.fight__btn {
+  margin-top: 40px;
 }
 
 .robot__model {
