@@ -1,13 +1,15 @@
 "use strict";
 
 var $ = require('jquery');
-const dom = require('./dom');
+const Dom = require('./dom');
+const Player = require('./player');
+const Model = require('./model');
 
-dom.OnLoad();
-dom.InputName();
-dom.DisplayInstincts();
-dom.DisplayValor();
-dom.DisplayMystic();
-dom.ClickType();
-dom.ClickModel();
-dom.ClickConfirm();
+Dom.OnLoad();
+Dom.InputName();
+Dom.DisplayInstincts();
+Dom.DisplayValor();
+Dom.DisplayMystic();
+Dom.ClickType();
+Dom.ClickModel();
+Dom.ClickConfirm();
