@@ -48,6 +48,5 @@ Model.Flanker = function() {
 Model.Flanker.prototype = new Type.Mystic();
 
 var test = new Model.Seeker();
-console.log("test", test);
 
 module.exports = Model;

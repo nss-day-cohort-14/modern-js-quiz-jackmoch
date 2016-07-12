@@ -6,7 +6,6 @@ function Player() {
   this.damage = null;
   this.type = null;
   this.model = null;
-  this.equipment = null;
 }
 
 module.exports = Player;

@@ -9,296 +9,92 @@
 </head>
 <body>
 
-  <nav class="navbar navbar-default navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header player__nav">
-        <form class='form-horizontal'>
-            <div class='btn-group btn-group-justified' data-toggle='buttons'>
-                <label class='btn btn-default btn-lg active'>
-                    <input type='radio' name='option' value='1' />Player 1</label>
-                <label class='btn btn-default btn-lg'>
-                    <input type='radio' name='option' value='2' />Player 2</label>
-            </div>
-        </form>
-      </div>
-    </div>
-  </nav>
-
   <article id="game-container">
 
-    <section id="player-setup" class="card card--name player1__screen">
-      <div class="centered__text">
-        <div>PLAYER 1 NAME</div>
-        <div class="field">
-          <input type="text" autofocus="true" id="player1__name" class="field__textinput">
+    <section id="player-setup" class="card card--name player__screen">
+      <div class="row">
+        <div class="col-sm-1">
         </div>
-      </div>
-    </section>
-    
-    <section class="player1__screen">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="card__button" >
-              <button class="class__link btn btn--big btn--blue robot__type robot__type__instinct player1__robot__type" id="player1__type__instinct" href="#">Instinct
-              </button>
-            </div>
-          </div>
-
-          <div class="col-sm-4">
-            <div class="card__button">
-              <button class="class__link btn btn--big btn--blue robot__type robot__type__valor player1__robot__type" id="player1__type__valor" href="#">Valor
-              </button>
-            </div>
-          </div>
-
-          <div class="col-sm-4">
-            <div class="card__button" >
-              <button class="class__link btn btn--big btn--blue robot__type robot__type__mystic player1__robot__type" id="player1__type__mystic" href="#">Mystic
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>      
-    </section> 
-
-    <section class="player1__screen">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-2">
-            <div class="card__button" id="player1__model__seeker">
-              <button class="class__link btn btn--blue robot__model instinct__model player1__robot__model" href="#">
-                <span class="btn__text">Seeker</span>
-              </button>
-            </div>
-          </div>
-
-          <div class="col-sm-2">
-            <div class="card__button" id="player1__model__evader">
-              <button class="class__link btn btn--blue robot__model instinct__model player1__robot__model" href="#">
-                <span class="btn__text">Evader</span>
-              </button>
-            </div>
-          </div>
-
-          <div class="col-sm-2">
-            <div class="card__button" id="player1__model__enforcer">
-              <button class="class__link btn btn--blue robot__model valor__model player1__robot__model" href="#">
-                <span class="btn__text">Enforcer</span>
-              </button>
-            </div>
-          </div>
-
-          <div class="col-sm-2">
-            <div class="card__button" id="player1__model__eliminator">
-              <button class="class__link btn btn--blue robot__model valor__model player1__robot__model" href="#">
-                <span class="btn__text">Eliminator</span>
-              </button>
-            </div>
-          </div>
-
-          <div class="col-sm-2">
-            <div class="card__button" id="player1__model__strategizer">
-              <button class="class__link btn btn--blue robot__model mystic__model player1__robot__model" href="#">
-                <span class="btn__text">Strategizer</span>
-              </button>
-            </div>
-          </div>
-
-          <div class="col-sm-2">
-            <div class="card__button" id="player1__model__flanker">
-              <button class="class__link btn btn--blue robot__model mystic__model player1__robot__model" href="#">
-                <span class="btn__text">Flanker</span>
-              </button>
-            </div>
-          </div>                  
-
-        </div>
-      </div>      
-    </section>     
-
-    <section class="player1__confirm">
-      <section id="" class="player1__confirm">
-        <div class="centered__text">
-          <div>CHOOSEN NAME HERE</div>
-        </div>
-      </section>
-
-      <section class="player1__confirm">
-        <div class="container-fluid centered__text chosen__header">
-          <div class="row">
-            <div>YOU HAVE CHOOSEN</div>
-          </div>  
-        </div>    
-      </section>
-
-      <section class="player1__confirm">
-        <div class="container-fluid centered__text robot__header">
-          <div class="row">
-            <div class="col-sm-5">
-              <div>ROBOT TYPE HERE</div>
-            </div>
-            <div class="col-sm-2">
-            </div>
-            <div class="col-sm-5">
-              <div>ROBOT MODEL HERE</div>
-            </div>    
-          </div>  
-
-          <div class="row">
-            <div class="col-sm-2">
-            </div>
-            <div class="col-sm-3">
-              <div class="card__button" id="confirm__continue">
-                <button class="class__link btn btn--blue btn--big" href="#">
-                  <span class="btn__text">CONTINUE</span>
-                </button>
-              </div>
-            </div>
-            <div class="col-sm-2">
-            </div>
-            <div class="col-sm-2">
-              <div class="card__button" id="confirm__back">
-                <button class="class__link btn btn--blue btn--big" href="#">
-                  <span class="btn__text">GO BACK</span>
-                </button>
-              </div>
-            </div>  
-            <div class="col-sm-3">
-            </div>
-          </div>  
-        </div>    
-      </section>
-    </section>
-
-    <section class="player1__equip">
-
-      <section id="" class="player1__equip">
-        <div class="centered__text">
-          <div>WEAPONS</div>
-        </div>
-      </section>
-
-      <section class="player1__equip">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-4">
-              <div class="card__button" id="">
-                <button class="class__link btn btn--blue btn--big" href="#">
-                  <span class="btn__text">Weapon 1</span>
-                </button>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="card__button" id="">
-                <button class="class__link btn btn--blue btn--big" href="#">
-                  <span class="btn__text">Weapon 2</span>
-                </button>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="card__button" id="">
-                <button class="class__link btn btn--blue btn--big" href="#">
-                  <span class="btn__text">Weapon 3</span>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-4">
-              <div class="card__button" id="">
-                <button class="class__link btn btn--blue btn--big" href="#">
-                  <span class="btn__text">Weapon 4</span>
-                </button>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="card__button" id="">
-                <button class="class__link btn btn--blue btn--big" href="#">
-                  <span class="btn__text">Weapon 5</span>
-                </button>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="card__button" id="">
-                <button class="class__link btn btn--blue btn--big" href="#">
-                  <span class="btn__text">Weapon 6</span>
-                </button>
-              </div>
+        <div class="col-sm-3">
+          <div class="centered__text">
+            <div>PLAYER 1 NAME</div>
+            <div class="field">
+              <input type="text" autofocus="true" id="player1__name" class="field__textinput">
             </div>
           </div>
         </div>  
-      </section>
-
-      <section id="" class="player1__equip">
-        <div class="centered__text equip__header">
-          <div>EQUIPMENT</div>
+        <div class="col-sm-2">
         </div>
-      </section>
-
-      <section class="player1__equip">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-4">
-              <div class="card__button" id="">
-                <button class="class__link btn btn--blue btn--big" href="#">
-                  <span class="btn__text">Equipment 1</span>
-                </button>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="card__button" id="">
-                <button class="class__link btn btn--blue btn--big" href="#">
-                  <span class="btn__text">Equipment 2</span>
-                </button>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="card__button" id="">
-                <button class="class__link btn btn--blue btn--big" href="#">
-                  <span class="btn__text">Equipment 3</span>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-4">
-              <div class="card__button" id="">
-                <button class="class__link btn btn--blue btn--big" href="#">
-                  <span class="btn__text">Equipment 4</span>
-                </button>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="card__button" id="">
-                <button class="class__link btn btn--blue btn--big" href="#">
-                  <span class="btn__text">Equipment 5</span>
-                </button>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="card__button" id="">
-                <button class="class__link btn btn--blue btn--big" href="#">
-                  <span class="btn__text">Equipment 6</span>
-                </button>
-              </div>
+        <div class="col-sm-3">
+          <div class="centered__text">
+            <div>PLAYER 2 NAME</div>
+            <div class="field">
+              <input type="text" autofocus="true" id="player2__name" class="field__textinput">
             </div>
           </div>
         </div>  
-      </section>
-
-      <section id="" class="player1__equip">
-        <div class="centered__text equip__header">
-          <div>
-            <button class="class__link btn btn--red btn--big fight__btn">FIGHT</button>
-          </div>
+        <div class="col-sm-1">
         </div>
-      </section>
+      </div> 
 
-    <section>
+      <div class="row">
+
+        <div class="col-sm-1">
+        </div>
+        <div class="dropdown">
+          <div class="col-sm-3">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Pick A Robot
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a href="#" class="player1__robot">Seeker</a></li>
+              <li><a href="#" class="player1__robot">Evader</a></li>
+              <li><a href="#" class="player1__robot">Enforcer</a></li>
+              <li><a href="#" class="player1__robot">Eliminator</a></li>
+              <li><a href="#" class="player1__robot">Strategizer</a></li>
+              <li><a href="#" class="player1__robot">Flanker</a></li>
+            </ul>
+          </div>  
+        </div> 
+
+        <div class="col-sm-2">
+        </div>
+
+        <div class="dropdown">
+          <div class="col-sm-3">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Pick A Robot
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a href="#" class="player2__robot">Seeker</a></li>
+              <li><a href="#" class="player2__robot">Evader</a></li>
+              <li><a href="#" class="player2__robot">Enforcer</a></li>
+              <li><a href="#" class="player2__robot">Eliminator</a></li>
+              <li><a href="#" class="player2__robot">Strategizer</a></li>
+              <li><a href="#" class="player2__robot">Flanker</a></li>
+            </ul>
+          </div>
+        </div> 
+        
+        <div class="col-sm-1">
+        </div>
+
+      </div>  
+      <div class="row">
+        <div class="" id="output"></div>
+      </div>     
+      <div class="row">  
+        <div class="col-sm-4">  
+        </div>
+        <div class="col-sm-2">
+          <footer class="footer">
+            <button class="btn btn--big attackBtn">Attack</button>
+          </footer>
+        </div>
+      </div>    
+    </section>
 
   </article>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="dist/bundle.js"></script>
 
 </body>

@@ -70,3 +70,11 @@ body {
 .robot__model {
   min-width: 130px;
 }
+
+#output {
+  min-height: 300px;
+}
+
+.center__battle {
+  text-align: center;
+}
