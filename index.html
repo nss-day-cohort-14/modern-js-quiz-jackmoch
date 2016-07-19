@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+  <article id="game-container">
+
+    <section id="player-setup" class="card card--name player__screen">
+      <div class="row">
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-3">
+          <div class="centered__text">
+            <div>PLAYER 1 NAME</div>
+            <div class="field">
+              <input type="text" autofocus="true" id="player1__name" class="field__textinput">
+            </div>
+          </div>
+        </div>  
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-3">
+          <div class="centered__text">
+            <div>PLAYER 2 NAME</div>
+            <div class="field">
+              <input type="text" autofocus="true" id="player2__name" class="field__textinput">
+            </div>
+          </div>
+        </div>  
+        <div class="col-sm-1">
+        </div>
+      </div> 
+
+      <div class="row">
+
+        <div class="col-sm-1">
+        </div>
+        <div class="dropdown">
+          <div class="col-sm-3">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Pick A Robot
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a href="#" class="player1__robot">Seeker</a></li>
+              <li><a href="#" class="player1__robot">Evader</a></li>
+              <li><a href="#" class="player1__robot">Enforcer</a></li>
+              <li><a href="#" class="player1__robot">Eliminator</a></li>
+              <li><a href="#" class="player1__robot">Strategizer</a></li>
+              <li><a href="#" class="player1__robot">Flanker</a></li>
+            </ul>
+          </div>  
+        </div> 
+
+        <div class="col-sm-2">
+        </div>
+
+        <div class="dropdown">
+          <div class="col-sm-3">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Pick A Robot
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a href="#" class="player2__robot">Seeker</a></li>
+              <li><a href="#" class="player2__robot">Evader</a></li>
+              <li><a href="#" class="player2__robot">Enforcer</a></li>
+              <li><a href="#" class="player2__robot">Eliminator</a></li>
+              <li><a href="#" class="player2__robot">Strategizer</a></li>
+              <li><a href="#" class="player2__robot">Flanker</a></li>
+            </ul>
+          </div>
+        </div> 
+        
+        <div class="col-sm-1">
+        </div>
+
+      </div>  
+      <div class="row">
+        <div class="" id="output"></div>
+      </div>     
+      <div class="row">  
+        <div class="col-sm-4">  
+        </div>
+        <div class="col-sm-2">
+          <footer class="footer">
+            <button class="btn btn--big attackBtn">Attack</button>
+          </footer>
+        </div>
+      </div>    
+    </section>
+
+  </article>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="dist/bundle.js"></script>
+
+</body>
+</html>
